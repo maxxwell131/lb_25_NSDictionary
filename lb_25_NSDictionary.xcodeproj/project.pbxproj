@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84A7BBBB1EB791C500E7AED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7BBBA1EB791C500E7AED0 /* main.m */; };
+		84A7BBC31EB7958000E7AED0 /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7BBC21EB7958000E7AED0 /* Film.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		84A7BBB71EB791C500E7AED0 /* lb_25_NSDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lb_25_NSDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A7BBBA1EB791C500E7AED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A7BBC11EB7958000E7AED0 /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		84A7BBC21EB7958000E7AED0 /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		84A7BBC41EB79C8400E7AED0 /* git.me */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = git.me; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				84A7BBBA1EB791C500E7AED0 /* main.m */,
+				84A7BBC11EB7958000E7AED0 /* Film.h */,
+				84A7BBC21EB7958000E7AED0 /* Film.m */,
+				84A7BBC41EB79C8400E7AED0 /* git.me */,
 			);
 			path = lb_25_NSDictionary;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A7BBBB1EB791C500E7AED0 /* main.m in Sources */,
+				84A7BBC31EB7958000E7AED0 /* Film.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
